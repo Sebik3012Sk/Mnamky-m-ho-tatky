@@ -1,0 +1,116 @@
+@charset "UTF-8";
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.item-menu {
+  margin-left: 190.8px;
+  text-decoration: none;
+  text-shadow: 2px 3px 4px #fa6731;
+  color: white;
+  padding: 5px;
+}
+
+.item-menu:hover, .item-menu:active {
+  -webkit-transition: 3s;
+  transition: 3s;
+  border-bottom: 2px solid white;
+  text-shadow: 2px 3px 4px #642805;
+}
+
+#menu {
+  position: fixed;
+  width: 1620px;
+  height: 50px;
+  background-color: #ad741e;
+}
+
+.first-button {
+  position: relative;
+  bottom: 381px;
+  left: 561.6px;
+  text-decoration: none;
+  width: 175.6px;
+  height: 50px;
+  border: 1.5px solid #ffc400;
+  border-radius: 14.4px;
+  padding-left: 10px;
+  padding-right: 10px;
+  color: white;
+  background-color: #c49133;
+  text-shadow: 12px 5px 4px #fc9002;
+  border: 1.1px solid white;
+}
+
+.first-button:hover, .first-button:active {
+  -webkit-transition: background-color 2s;
+  transition: background-color 2s;
+  background-color: #e69a0f;
+}
+
+.bunky-chut {
+  position: relative;
+  bottom: 380.4px;
+  left: 500.4px;
+  color: #8a8432;
+  padding-bottom: 5px;
+}
+
+.vyhledat {
+  position: relative;
+  bottom: 700px;
+  width: 730px;
+  height: 50px;
+  left: 120px;
+  outline: none;
+  letter-spacing: 3px;
+  word-spacing: 2px;
+}
+
+.vyhledat:hover, .vyhledat:active {
+  background-color: #dfdfdf;
+}
+
+#obsah-stránky {
+  width: 1300px;
+  height: 700px;
+  background-image: url("img/img.jpg");
+}
+
+.errror {
+  color: red;
+  text-align: center;
+  text-decoration: underline;
+  -webkit-text-decoration-color: #c0c022;
+          text-decoration-color: #c0c022;
+}
+
+.about-food {
+  text-decoration: underline;
+  text-shadow: 5px 2px 10px #fab371;
+  position: relative;
+  bottom: 111.5px;
+}
+
+h1 {
+  display: none;
+}
+
+@media only screen and (max-width: 500px) {
+  .about-food {
+    cursor: s-resize;
+  }
+}
+
+.close-button {
+  margin-left: 125px;
+  color: red;
+}
+
+.close-button:hover, .close-button:active {
+  cursor: pointer;
+}
+/*# sourceMappingURL=style.css.map */

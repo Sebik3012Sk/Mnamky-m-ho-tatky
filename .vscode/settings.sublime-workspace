@@ -1,0 +1,312 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"co",
+				"const"
+			],
+			[
+				"wi",
+				"width"
+			],
+			[
+				"text",
+				"text-decoration"
+			],
+			[
+				"bla",
+				"blanchedalmond"
+			],
+			[
+				"tex",
+				"text-decoration"
+			],
+			[
+				"border-top",
+				"border-top-left-radius"
+			],
+			[
+				"body",
+				"tbody"
+			],
+			[
+				"background",
+				"background-image"
+			],
+			[
+				"ma",
+				"margin-top"
+			],
+			[
+				"r",
+				"right"
+			],
+			[
+				"word",
+				"word-spacing"
+			],
+			[
+				"le",
+				"letter-spacing"
+			],
+			[
+				"u",
+				"uppercase"
+			],
+			[
+				"inli",
+				"inline-block"
+			],
+			[
+				"s",
+				"sans-serif"
+			],
+			[
+				"font",
+				"font-family"
+			],
+			[
+				"pa",
+				"padding-top"
+			],
+			[
+				"te",
+				"text-align"
+			],
+			[
+				"box",
+				"box-sizing"
+			],
+			[
+				"darkg",
+				"darkseagreen"
+			],
+			[
+				"p",
+				"padding-top"
+			],
+			[
+				"pr",
+				"color-profile"
+			],
+			[
+				"light",
+				"lightgreen"
+			],
+			[
+				"i",
+				"image"
+			],
+			[
+				"e",
+				"get"
+			],
+			[
+				"backg",
+				"background-image"
+			],
+			[
+				"back",
+				"background-image"
+			],
+			[
+				"dark",
+				"darkblue"
+			],
+			[
+				"b",
+				"border"
+			],
+			[
+				"o",
+				"odkaz1"
+			],
+			[
+				"odk",
+				"odkaz1"
+			],
+			[
+				"O",
+				"odkaz6"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 0.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/C/Users/asus pc i5/OneDrive/Plocha/jquery/js/script.js",
+		"/C/Users/asus pc i5/OneDrive/Plocha/jquery/css/style.css",
+		"/C/Users/asus pc i5/OneDrive/Plocha/jquery/index.html",
+		"/C/Users/asus pc i5/OneDrive/Plocha/Mnamky mého tatky/azijská kuchyně.html/Chinská kachna pěti vůní.html/styly.css",
+		"/C/Users/asus pc i5/OneDrive/Plocha/Mnamky mého tatky/azijská kuchyně.html/styly.css",
+		"/C/Users/asus pc i5/OneDrive/Plocha/Mnamky mého tatky/azijská kuchyně.html/Chinská kachna pěti vůní.html/index.html",
+		"/C/Users/asus pc i5/OneDrive/Plocha/Mnamky mého tatky/azijská kuchyně.html/index.html",
+		"/C/Users/asus pc i5/OneDrive/Plocha/Mnamky mého tatky/azijská kuchyně.html",
+		"/C/Users/asus pc i5/OneDrive/Plocha/Mnamky mého tatky/sladká jídla.html/sladká jídla.html",
+		"/C/Users/asus pc i5/OneDrive/Plocha/Mnamky mého tatky/sladká jídla.html/DEZERTY.css",
+		"/C/Users/asus pc i5/OneDrive/Plocha/Mnamky mého tatky/sladká jídla.html/script.js",
+		"/C/Users/asus pc i5/OneDrive/Plocha/Mnamky mého tatky/style.css",
+		"/C/Users/asus pc i5/OneDrive/Plocha/Mnamky mého tatky/hlavní jídla.html/hlavní jídlo.html",
+		"/C/Users/asus pc i5/OneDrive/Plocha/Mnamky mého tatky/script.js",
+		"/C/Users/asus pc i5/OneDrive/Plocha/Mnamky mého tatky/index.html",
+		"/C/Users/asus pc i5/OneDrive/Plocha/Mnamky mého tatky/hlavní jídla.html/styly.css",
+		"/C/Users/asus pc i5/OneDrive/Plocha/Mnamky mého tatky/hlavní jídla.html/squrel.css",
+		"/C/Users/asus pc i5/OneDrive/Plocha/index.php/index.php"
+	],
+	"find":
+	{
+		"height": 32.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"scrollbar_highlights": true,
+		"show_context": true,
+		"use_buffer2": true,
+		"use_gitignore": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 32.0
+	},
+	"input":
+	{
+		"height": 39.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "settings.sublime-project",
+	"replace":
+	{
+		"height": 60.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 150.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

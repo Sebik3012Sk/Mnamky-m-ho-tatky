@@ -1,0 +1,863 @@
+<!DOCTYPE html>
+
+<html lang="cs">
+
+<head>
+
+    <link rel="stylesheet" href="query.css">
+
+    <link class="icon" rel="icon" type="image" href="img/img.jpg">
+
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="stylesheet" href="lightbox.min.css">
+
+    <link rel="stylesheet" href="query.css">
+
+    <meta charset="UTF-8">
+
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+
+   
+
+  <script>  src="https://code.jquery.com/jquery-3.6.0.min.js"
+
+  integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
+
+  crossorigin="anonymous"</script>
+
+  
+
+
+
+    <script src="lightbox-plus-jquery.min.js"></script>
+
+
+
+    <script src="script.js"></script>
+
+    <script src="test.js"></script>
+
+   
+
+    
+
+
+
+    
+
+ 
+
+
+
+  
+
+
+
+
+
+
+
+    
+
+
+
+    <script     
+
+  src="https://code.jquery.com/jquery-3.6.0.min.js"
+
+  integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
+
+  crossorigin="anonymous"></script>
+
+
+
+  <script src="jQuery.js"></script>
+
+
+
+    <title>Mnamky mého tatky</title>
+
+</head>
+
+<body>
+
+    
+
+
+
+
+
+
+
+<header>
+
+
+
+   
+
+        <div id="menu">
+
+            <a class="item-menu" href="http://localhost/MNAMKY%20M%C3%89HO%20TATKY/POL%C3%89VKY/index.php" target="blank" loading="lazy">POLÉVKY</a>
+
+            <a class="item-menu" href="#">PŘEDKRMY</a>
+
+            <a class="item-menu" href="#">SALÁTY</a>
+
+            <a class="item-menu" href="#">AZIJSKÁ KUCHYNĚ</a>
+
+        </div>
+
+
+
+       
+
+</header>
+
+
+
+
+
+
+
+<main>
+
+    
+
+    <div id="obsah-stránky">
+
+
+
+    </div>
+
+
+
+
+
+    <div class="obsah">
+
+
+
+        <h2 class="bunky-chut">Roztančíme vaše chutové bunky</h2>
+
+
+
+
+
+        <br><br>
+
+
+
+        <a class="first-button" href="#">FOTOGALERIE</a>
+
+
+
+        <input name="search" class="vyhledat" type="search" placeholder="Napište co hledáte" spellcheck="value" aria-live="on">
+
+
+
+    <div class="search-button">
+
+    
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+    </div>
+
+
+
+        
+
+    <!-- <a href="index.php"download>stahni</a> -->
+
+
+
+
+
+    <section id="about-food-v-1">
+
+    
+
+                <br>
+
+                
+
+
+
+            <h2 style="position: relative;bottom: 90px;" class="about-food">Zde je ukázka našich jídel</h2>
+
+
+
+
+
+            <div class="">
+
+            <a href="img/Kachna pěti vůní Chinská.jpg" data-lightbox="mygallery" data-title="Chinská kachna pěti vůní"><img style="width: 400px;height: 400px;margin-left: 110px;" src="img/Kachna pěti vůní Chinská.jpg" alt=""></a>
+
+
+
+
+
+            <a href="img/špenát coo takhle dát jsi špenát.jpg" data-lightbox="mygallery" data-title="špenát"><img class="img2" style="width: 400px;height: 400px;margin-left: 165px;" src="img/špenát coo takhle dát jsi špenát.jpg" alt=""></a>
+
+
+
+            <img class="close-button" src="img/close.png" alt="">
+
+
+
+    </section>
+
+ 
+
+
+
+
+
+<style>
+
+   
+
+    @media only screen and(max-width:260px){
+
+        * {
+
+            background-color: red;
+
+        }
+
+    }
+
+
+
+</style>
+
+
+
+
+
+
+
+
+
+    </div>
+
+
+
+
+
+    
+
+
+
+  
+
+</main>
+
+
+
+
+
+<footer>
+
+
+
+
+
+</footer>
+
+
+
+
+
+<script>
+
+  
+
+
+
+
+
+
+
+
+
+        // const součet = (a,b,c) => {
+
+        //     const paragraphs = document.createElement('p')
+
+        //     paragraphs.classList.add('výsledek')
+
+        //     paragraphs.style.color = 'red';
+
+        //     paragraphs.innerHTML = `výsledek je : ${a + b + c},<br>`;
+
+        //     document.querySelector('footer').appendChild(paragraphs)
+
+        // }
+
+
+
+
+
+
+
+
+
+
+
+        // součet(5,5,4)
+
+        // součet(4,1,6)
+
+
+
+
+
+
+
+
+
+
+
+        var filtres = [{
+
+            searchingText : ""
+
+        }]
+
+        
+
+        vyhledat.addEventListener("change",function(event){
+
+                filtres.searchingText = event.target.value;
+
+                console.log(filtres)
+
+
+
+                event.preventDefault();
+
+
+
+
+
+                event.target.value = "";
+
+
+
+
+
+
+
+                var dataLocalstorage_JSON = JSON.stringify(filtres.searchingText)
+
+                localStorage.setItem("search",dataLocalstorage_JSON)
+
+
+
+               
+
+
+
+                if(filtres.searchingText == "guláš"){
+
+
+
+                    const html = document.querySelector("html").remove();
+
+                    
+
+
+
+                    document.write("<img  class='loading' src='img/loading.gif'>")
+
+                    
+
+                    const br = document.createElement("br")
+
+                    document.querySelector("body").appendChild(br)
+
+
+
+                    const p = document.createElement("p")
+
+                    p.textContent = "Načítání...."
+
+                    document.querySelector("body").appendChild(p)
+
+
+
+                  
+
+                    
+
+
+
+                    location.assign("https://www.rohlik.cz/chef/10-hovezi-gulas-s-karlovarskym-knedlikem?_ref=category&gclid=CjwKCAjwr56IBhAvEiwA1fuqGtjdSYriwOHYqMlRL0-dTYAgGZYvsfacSoIuo-Q-jKrMzMSbsSQfYhoCpR0QAvD_BwE")
+
+
+
+                }else if(filtres.searchingText == "kachna"){
+
+
+
+                    const html = document.querySelector("html").remove();
+
+
+
+                    document.write("<img class='l' src='img/loading.gif'>")
+
+
+
+                    const br = document.createElement("br")
+
+                    document.querySelector("body").appendChild(br)
+
+
+
+                    const p = document.createElement("p")
+
+                    p.textContent = "Načítání...."
+
+                    document.querySelector("body").appendChild(p)
+
+
+
+                    location.assign("https://www.rohlik.cz/chef/1634-pecena-kachna?gclid=CjwKCAjwr56IBhAvEiwA1fuqGsL2wNz6PCwWUY1b3eDMQA7uJiVkxNUee_-scximp9WDQR5d336rmxoCgFEQAvD_BwE")
+
+                }
+
+
+
+
+
+                if(filtres.searchingText == 'špenát'){
+
+
+
+                    const html = document.querySelector("html").remove();
+
+
+
+                    document.write("<img class='l' src='img/loading.gif'>")
+
+
+
+                    const br = document.createElement("br")
+
+                    document.querySelector("body").appendChild(br)
+
+
+
+                    const p = document.createElement("p")
+
+                    p.textContent = "Načítání...."
+
+                    document.querySelector("body").appendChild(p)
+
+
+
+                    location.assign('https://www.recepty.cz/recept/luxusni-spenat-156298')
+
+                    
+
+                }else if(filtres.searchingText == 'vívar'){
+
+
+
+                    const html = document.querySelector("html").remove();
+
+
+
+                    document.write("<img class='l' src='img/loading.gif'>")
+
+
+
+                    const br = document.createElement("br")
+
+                    document.querySelector("body").appendChild(br)
+
+
+
+                    const p = document.createElement("p")
+
+                    p.textContent = "Načítání...."
+
+                    document.querySelector("body").appendChild(p)
+
+
+
+
+
+                    location.assign('https://recepty.cuketka.cz/hovezi-vyvar/')
+
+                }
+
+
+
+
+
+                if(filtres.searchingText == 'nudle'){
+
+
+
+                    const html = document.querySelector("html").remove();
+
+
+
+                    document.write("<img class='l' src='img/loading.gif'>")
+
+
+
+                    const br = document.createElement("br")
+
+                    document.querySelector("body").appendChild(br)
+
+
+
+                    const p = document.createElement("p")
+
+                    p.textContent = "Načítání...."
+
+                    document.querySelector("body").appendChild(p)
+
+
+
+                    location.assign('https://www.recepty.cz/recept/domaci-nudle-do-polevky-19314')
+
+                }else if(filtres.searchingText == 'cuketa'){
+
+
+
+                    const html = document.querySelector("html").remove();
+
+
+
+document.write("<img class='l' src='img/loading.gif'>")
+
+
+
+const br = document.createElement("br")
+
+document.querySelector("body").appendChild(br)
+
+
+
+const p = document.createElement("p")
+
+p.textContent = "Načítání...."
+
+document.querySelector("body").appendChild(p)
+
+
+
+
+
+                  location.assign('https://carujeme.cz/top-recepty-s-cuketou/')
+
+                }
+
+
+
+                
+
+
+
+
+
+                let ftg  = "fotogalerie";
+
+
+
+                if(filtres.searchingText = ftg){
+
+                    window.scrollTo({
+
+                        top : aboutFood,
+
+                        behavior : "smooth"
+
+                    })
+
+                }
+
+
+
+
+
+                
+
+
+
+        })
+
+
+
+  
+
+ 
+
+
+
+      localStorage.removeItem("Console/Mode")
+
+
+
+
+
+
+
+let buttonGallery = document.querySelector(".first-button")
+
+let aboutFood = document.querySelector(".about-food").offsetTop
+
+
+
+
+
+
+
+buttonGallery.addEventListener("click", function(){
+
+  let scroll =  window.scrollTo({
+
+        top: aboutFood  ,
+
+        behavior: "smooth"
+
+
+
+    
+
+        
+
+    })
+
+})
+
+
+
+
+
+
+
+const htmlTagCall = document.querySelector("html")
+
+
+
+htmlTagCall.addEventListener("loadeddata",function(){
+
+    console.log("Stránka se načetla")
+
+})
+
+
+
+
+
+htmlTagCall.addEventListener("keyup",function(){
+
+
+
+    console.log(event)
+
+
+
+    const saveDataLocalstorageJSON = JSON.stringify(event)
+
+
+
+    localStorage.setItem("klávesa",saveDataLocalstorageJSON)
+
+},false)
+
+
+
+// let pet = "pet";
+
+
+
+// console.log(pet.toLowerCase);
+
+
+
+htmlTagCall.addEventListener("copy",function(){
+
+    // code 221 = Zkopírován prvek ze stránky
+
+    console.log("code 221")
+
+})
+
+
+
+const onBingoblitz = true
+
+
+
+if(onBingoblitz == true){
+
+    location.assign("https://apps.facebook.com/bingoblitz/?ref=bookmarks&fb_source=web_shortcut&count=0")
+
+}
+
+
+
+
+
+const close_button = document.querySelector(".close-button").addEventListener("click",function(event){
+
+    window.close();
+
+    console.log(event.target.value)
+
+})
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</script>
+
+
+
+
+
+
+
+<script type="text/javascript" lang="cs" class="event">
+
+
+
+
+
+
+
+
+
+
+
+	// <![CDATA[  <-- For SVG support
+
+	if ('WebSocket' in window) {
+
+		(function () {
+
+			function refreshCSS() {
+
+				var sheets = [].slice.call(document.getElementsByTagName("link"));
+
+				var head = document.getElementsByTagName("head")[0];
+
+				for (var i = 0; i < sheets.length; ++i) {
+
+					var elem = sheets[i];
+
+					var parent = elem.parentElement || head;
+
+					parent.removeChild(elem);
+
+					var rel = elem.rel;
+
+					if (elem.href && typeof rel != "string" || rel.length == 0 || rel.toLowerCase() == "stylesheet") {
+
+						var url = elem.href.replace(/(&|\?)_cacheOverride=\d+/, '');
+
+						elem.href = url + (url.indexOf('?') >= 0 ? '&' : '?') + '_cacheOverride=' + (new Date().valueOf());
+
+					}
+
+					parent.appendChild(elem);
+
+				}
+
+			}
+
+			var protocol = window.location.protocol === 'http:' ? 'ws://' : 'wss://';
+
+			var address = protocol + window.location.host + window.location.pathname + '/ws';
+
+			var socket = new WebSocket(address);
+
+			socket.onmessage = function (msg) {
+
+				if (msg.data == 'reload') window.location.reload();
+
+				else if (msg.data == 'refreshcss') refreshCSS();
+
+			};
+
+			if (sessionStorage && !sessionStorage.getItem('IsThisFirstTime_Log_From_LiveServer')) {
+
+				console.log('Live reload enabled.');
+
+				sessionStorage.setItem('IsThisFirstTime_Log_From_LiveServer', true);
+
+			}
+
+		})();
+
+	}
+
+	else {
+
+		console.error('Upgrade your browser. This Browser is NOT supported WebSocket for Live-Reloading.');
+
+	}
+
+	
+
+
+
+
+
+
+
+</script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
+
+</html>
